@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.Projects,.About,.Contact,.logo{
+    padding: 8px 16px ;
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:700px){
+    .menu{
+        display: none;
+    }
+}
+img{
+    position:inherit;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.head{
+    /* position: absolute; */
+    color: rgba(255, 255, 255, 0.885);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+h3{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 10px 25px;
+    font-size: 25px;
+}
+/* .cards{
+    display: block;
+    padding: 0px 8px;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.card{
+    width: 24.99999%;
+    padding: 0px 8px;
+    float: left;
+    position: relative;
+}
+.Detail{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    left: 9px;
+}
+p{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 8px;
+    margin: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+.card {
+    width: 24.99999%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.Detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0px 8px;
+    height: 22px;
+    width: 120px;
+}
+
+h4 {
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    padding: 8px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 33.33333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+.INFO2{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+.INFO21{
+    width: 24.99999%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 1200px) {
+    .INFO21 {
+        width: 33.33333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .INFO21 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .INFO21 {
+        width: 100%;
+    }
+}
+.name{
+    margin: 0px;
+    padding: 12px 0px;
+    text-align: left;
+}
+.w3-opacity{
+    padding: 12px 0px;
+
+}
+.but{
+    width: 100%;
+    border: none;
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 40px;
+}
+.IN{
+    margin: 8px 20px;
+    width: 95%;
+}
+input, .SUB{
+    height: 40px;
+    padding: 12px;
+    font-size: 17px;
+}
+.SUB{
+    margin: 8px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.w3-container{
+    padding: 0px 10px;
+    margin-top: 50px;
+}
